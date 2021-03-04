@@ -1,0 +1,25 @@
+.club {
+  overflow-y: auto;
+}
+
+table {
+  font-size: 3rem;
+  empty-cells: hide;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+li {
+  font-size: 1.5rem;
+  list-style-image: url(images/clipboard-list.png);
+}
